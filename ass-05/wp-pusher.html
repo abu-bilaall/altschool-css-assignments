@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font link -- Inter, courtesy of Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./wp-pusher.css">
     <title>Assignment 5</title>
 </head>
+
 <body>
     <header>
         <div class="left-section">
@@ -25,17 +29,42 @@
         </div>
     </header>
     <hr>
-    
+
     <main>
-        <div class="left-checkout-section">
+        <div class="checkout-card">
+            <div class="left-checkout-section">
 
-        </div>
+            </div>
 
-        <div class="right-checkout-section">
+            <div class="right-checkout-section">
+                <div class="plan-pricing">
+                    <h3>Freelancer</h3>
+                    <p id="price"><sup>$</sup> 99 <span>/year</span></p>
+                    <p>Automatically renews after 1 year</p>
+                    <ul>
+                        <li>Use on 5 client sites</li>
+                        <li>Private repositories</li>
+                        <li>Email support</li>
+                    </ul>
+                    <p>Need <strong>20</strong> client sites?</p>
+                    <button id="agency-plan">Switch to the Agency plan.</button>
+                </div>
 
+                <hr>
+                <div class="customer-review">
+                    <p>
+                        FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
+                    </p>
+                    <div class="about-customer">
+                        <img src="./assets/images/kirk-beard.png" alt="kirk beard">
+                        <p>Kirk Beard</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
-    <footer>&copy; 2018 WP Pusher IVS  ·  <a href="#">Terms of Service</a></footer>
+    <footer>&copy; 2018 WP Pusher IVS · <a href="#">Terms of Service</a></footer>
 </body>
+
 </html>

@@ -74,8 +74,7 @@ body {
 
 header {
     display: flex;
-    padding: 16px 0px;
-    width: 98%;
+    padding: 16px 0px;    
     margin: 0 auto;
 }
 
@@ -90,9 +89,12 @@ img[alt = "wp-pusher-logo"] {
 }
 
 hr {
-    border: 1px solid #1e1e1e;
-    width: 98%;
+    border: 1px solid #E0E6EA;
     margin: 0 auto;
+}
+
+header, hr {
+    width: 70%;
 }
 
 .right-section {
@@ -114,12 +116,89 @@ hr {
     border-radius: 8px;
 }
 
-/* main {
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkout-card {
     width: 892px;
     height: 795px;
-    background-color: #548BC5;
+    background-color: #1179BF;
     margin: 0 auto;
-} */
+
+    display: flex;
+    box-shadow: 0px 0px 5px 0px #000000;
+}
+
+.left-checkout-section {
+    width: 580px;
+    height: inherit;
+    background-color: white;
+}
+
+.right-checkout-section {
+    max-width: 312px;
+    padding: 36px;
+    color: white;
+}
+
+#price {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#price sup, #price span {
+    font-size: 1rem;
+}
+
+ul {
+    list-style: none;
+    font-weight: 600;
+    padding: 0;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#agency-plan {
+    color: inherit;
+    border: none;
+    background-color: transparent;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #B9F5FF;
+    padding: 0;
+}
+
+.right-checkout-section hr {
+    border: 1px solid #FFFFFF;
+}
+
+.customer-review {
+    margin-top: 32px;
+}
+
+.about-customer {
+    margin-top: 18px;
+    font-weight: 700;
+
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+img[alt="kirk beard"] {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
 
 footer {
     margin-top: auto;
