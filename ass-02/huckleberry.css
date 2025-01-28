@@ -1,0 +1,157 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* author's styles */
+body {
+    font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+    padding-left: 16px;
+    margin-bottom: 8px;
+}
+
+.highlight {
+    color: green;
+    font-weight: 700;
+}
+
+.top h1 {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+}
+
+.bottom {
+    margin-top: 32px;
+    background-color: #666666;
+    border-top: 8px solid rgb(211, 208, 208);
+}
+
+.card {
+    background-color: white;
+    margin-top: 64px;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-header {
+    background-color: #FFBF00;
+    border-bottom: 8px solid #CC9900;
+    margin-left: -8px;
+    padding: 8px;
+}
+
+.bpx {
+    height: 64px;
+    border-bottom: 8px solid rgb(211, 208, 208);
+}
+
+@media (min-width: 1024px) {
+    body {
+        height: 100vh;
+    }
+
+    p {
+        font-size: 1.5rem;
+        padding: 16px;
+    }
+
+    .top, .bottom {
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .top {
+        margin-left: 25rem;
+    }
+
+    .bottom {
+        align-items: center;
+    }
+
+    .card {
+        border-bottom: 8px solid rgb(211, 208, 208);
+        width: 60%;
+        position: relative;
+    }
+
+    .card-header {
+        width: fit-content;
+        padding: 16px;
+
+        position: relative;
+        left: -12px;
+    }
+
+    .bpx {
+        display: none;
+    }
+}
