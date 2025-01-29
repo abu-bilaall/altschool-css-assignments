@@ -33,12 +33,45 @@
     <main>
         <div class="checkout-card">
             <div class="left-checkout-section">
+                <h2>Checkout</h2>
+                <div class="divider"></div>
+                <div class="checkout-form">
+                    <h3 class="form-headers"><span class="circled-num">1</span> Your Basic Information</h3>
+                    <form action="">
+                        <div class="form-entries">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Jane">
+                        </div>
 
+                        <div class="form-entries">
+                            <label for="first-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Doe">
+                        </div>
+
+                        <div id="email-wrapper" class="form-entries">
+                            <label for="first-name">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="janedoe@example.com">
+                        </div>
+                    </form>
+                    <div class="divider"></div>
+                    <h3 class="form-headers"><span class="circled-num">2</span> Your Payment Information</h3>
+                    <div class="form-entries cc">
+                        <label for="first-name">Credit Card</label>
+                        <div class="card-credentials">
+                            <input type="number" id="card-number" name="card-number" placeholder="Card Number">
+                            <input type="number" id="card-expiry" name="card-number" placeholder="MM/YY">
+                            <input type="number" id="card-cvc" name="card-number" placeholder="CVC">
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <button id="buy-wp">Buy WP Pusher</button>
+                    <p id="help"><span class="round-mark">?</span> <strong>Need any help?</strong> <span class="support">Don’t hesitate to contact support!</span></p>
+                </div>
             </div>
 
             <div class="right-checkout-section">
                 <div class="plan-pricing">
-                    <h3>Freelancer</h3>
+                    <h3 class="form-headers">Freelancer</h3>
                     <p id="price"><sup>$</sup> 99 <span>/year</span></p>
                     <p>Automatically renews after 1 year</p>
                     <ul>
@@ -50,7 +83,7 @@
                     <button id="agency-plan">Switch to the Agency plan.</button>
                 </div>
 
-                <hr>
+                <div class="divider2"></div>
                 <div class="customer-review">
                     <p>
                         FTP is horrible to deal with. <strong>WP Pusher</strong> solves that issue, and the customer support is awesome!
