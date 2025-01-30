@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font link -- Outift, courtesy of Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./web-dev-training.css">
+    <title>Assigment 4</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/images/logo.png" alt="logo">
+        <h1>For Individuals</h1>
+        <p>
+            Start benefiting from the wellness experience. For companies looking on increasing productivity,
+            and improving organization wellness.
+        </p>
+    </header>
+
+    <main>
+        <form action="">
+            <div class="entry-pairs">
+                <div class="form-entries">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Tolu">
+                </div>
+                <div class="form-entries">
+                    <label for="first-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Matthew">
+                </div>
+            </div>
+
+            <div class="entry-pairs">
+                <div class="form-entries">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <div class="form-entries">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" placeholder="Select here">
+                </div>
+            </div>
+
+            <div class="entry-pairs">
+                <div class="form-entries">
+                    <label for="weight">Weight (KG)</label>
+                    <input type="number" id="weight" name="weight" placeholder="Enter weight in KG">
+                </div>
+                <div class="form-entries">
+                    <label for="height">Height (CM)</label>
+                    <input type="number" id="height" name="height" placeholder="Enter height in CM">
+                </div>
+            </div>
+
+            <div class="form-entries">
+                <label for="activity-level">Activity Level</label>
+                <select name="activity-level" id="activity-level">
+                    <option value="" selected disabled hidden>Select your gender</option>
+                    <option value="minimum">Minimum</option>
+                    <option value="medium">Medium</option>
+                    <option value="maximum">Maximum</option>
+                </select>
+            </div>
+
+            <div class="form-entries">
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd">
+            </div>
+
+            <div class="form-entries">
+                <button type="submit">Register</button>
+            </div>
+
+            <div class="privacy-policy">By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span></div>
+        </form>
+        <div class="privacy-policy-mobile">By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span></div>
+    </main>
+</body>
+
+</html>
