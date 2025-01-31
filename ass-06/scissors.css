@@ -107,10 +107,10 @@ button {
     font-weight: 600;
 }
 
-.hero-section {
+#hero-section {
     width: 50%;
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -138,4 +138,20 @@ img[alt="swoosh"] {
 .hero-btns {
     justify-content: center;
     gap: 32px;
+}
+
+#transform-link {
+    width: 30%;
+    padding: 36px 0px;
+    margin: 0 auto;
+    margin-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #0065FE;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.829);
 }
