@@ -10,7 +10,6 @@ answer.textContent = `URL shortening works by taking a long URL and creating a s
         they are redirected to the intended destination.`;
 
 dropdown.addEventListener('click', () => {
-    console.log('click');
     let tempAnswer = document.querySelector('.answer');
     if (tempAnswer) {
         faqs.removeChild(answer);

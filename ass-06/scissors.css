@@ -367,3 +367,67 @@ input:focus, select:focus {
 #dropdown {
     cursor: pointer;
 }
+
+#rev {
+    margin-top: 95px;
+    margin-bottom: 72px;
+
+    display: flex;
+    flex-direction: column;
+    height: 299px;
+}
+
+#rev > h1 {
+    color: white;
+    margin-bottom: 24px;
+}
+
+footer {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.tos {
+    color: #112232;
+    text-align: right;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+}
+
+/* #logos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+} */
+
+.social-media-links {
+    display: flex;
+    gap: 24px;
+
+    margin-top: 8px;
+}
+
+.grid > ul {
+    gap: 4px;
+}
+
+.grid-title {
+    font-weight: 700;
+}
+
+#resources {
+    grid-column: 2 / 3;
+}
+
+#features {
+    grid-column: 3 / 4;
+}
+
+#legal {
+    grid-column: 4 / 5;
+}
