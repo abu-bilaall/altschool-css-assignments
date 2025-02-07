@@ -285,3 +285,61 @@ li {
     color: #0065FE;
     background-color: white;
 }
+
+.trim-container {
+    background-color: #1E3448;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.trim-form {
+    color: #0065FE;
+    background-color: white;
+    height: 355px;
+    width: 476px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 24px;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+input, select {
+    padding: 8px;
+    border: 1px solid #0065FE;
+    border-radius: 8px;
+}
+
+select {
+    background-color: white;
+    color: #0065FE;
+}
+
+input::placeholder{
+    color: #0065FE;
+}
+
+input:focus, select:focus {
+    border: 1px solid #0065FE;
+    outline: none;
+}
+
+.input-pairs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trim-btn {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs > h1 {
+    text-align: center;
+}
